@@ -1,0 +1,29 @@
+<script>
+//     function myname(name,a,b,c)
+// {
+    
+//     // console.log(collect);
+//     return (a+b+c)/3;
+// }
+// let collect1=myname("parameswar",10,20,30);
+// document.writeln(collect1); 
+
+
+
+
+let dog={
+    name:"dog",
+    bark:function(){
+        console.log(this.name,"is barking")
+    }
+}
+let parrot={
+    name:"parrot",
+    chirp:function(){
+        console.log(this.name,"is chirping")
+    }
+}
+let speak=dog.bark.bind(dog);
+speak();
+</script> 
+
