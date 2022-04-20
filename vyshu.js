@@ -177,3 +177,37 @@ ptintName.call({
 //   greet.call(obj);
 
 
+
+    //     var emp =[
+    //         {name:"veera"},
+    //         {name:"Ravi"},
+    //         {name:"Ramu"}
+    //     ]
+
+
+    //    var emp4 = emp.map((x,ind,arr)=>{
+    //         if(x.name === "veera"){
+    //          x.sal =10000;
+    //          x.city ="ATP";
+    //          x.id = 1345
+          
+    //         }
+    //         else if(x.name === "Ravi"){
+    //          x.sal =20000;
+    //          x.city ="ATP";
+    //          x.id = 1356
+            
+    //         }
+    //         else {
+    //          x.sal =30000;
+    //          x.city ="ATP";
+    //          x.id = 1347
+    //         }
+
+    //         return x
+
+    //     })
+
+    //     console.log(emp4)
+
+
